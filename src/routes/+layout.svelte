@@ -2,15 +2,27 @@
     import "../app.css";
 </script>
 
+<svelte:head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJB60NQ1WV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VJB60NQ1WV');
+    </script>
+</svelte:head>
+
 <div class="flex flex-col min-h-screen">
     <header class="flex items-center justify-between px-6 py-3 bg-black">
         <h1 class="text-white font-bold text-xl">
-            <a href="/" class="text-white font-bold text-xl">Tech Blog</a>
+            <a href="/" class="text-white font-bold text-xl">shige</a>
         </h1>
         <nav class="flex gap-4">
             <a href="/" class="text-white hover:text-gray-400">Home</a>
-            <a href="/profiles" class="text-white hover:text-gray-400">Profiles</a>
-            <a href="/articles" class="text-white hover:text-gray-400">Article</a>
+            <a href="/profiles" class="text-white hover:text-gray-400">About</a>
+            <a href="/articles" class="text-white hover:text-gray-400">Blog</a>
         </nav>
     </header>
 
