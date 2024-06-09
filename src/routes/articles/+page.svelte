@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-  <title>My Awesome Articles</title>
-  <meta name="description" content="There are lots of great articles" />
+  <title>Blog | shige</title>
+  <meta name="description" content="shige's blog" />
 </svelte:head>
 
 <ul>

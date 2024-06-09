@@ -1,6 +1,6 @@
 <svelte:head>
-  <title>About Me</title>
-  <meta name="description" content="This is my profile." />
+  <title>About | shige</title>
+  <meta name="description" content="About me" />
 </svelte:head>
 
 <div class="mb-12">
