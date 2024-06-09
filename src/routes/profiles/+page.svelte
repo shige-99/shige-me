@@ -4,7 +4,8 @@
 </svelte:head>
 
 <div class="mb-12">
-    <h1 class="text-3xl font-bold mb-2">shige</h1>
+    <h2 class="text-2xl font-bold mb-2">基本情報</h2>
+    <p class="text-lg">1999.1.14 沖縄県出身 25歳</p>
     <p class="text-lg">ソフトウェアエンジニア</p>
     <p class="text-lg">趣味：野球観戦、旅行、妻との生活</p>
   </div>
@@ -13,9 +14,9 @@
     <section class="mb-12">
       <h2 class="text-2xl font-bold mb-2">経歴</h2>
       <ul>
-        <li><span class="font-bold">2022年:</span> 琉球大学工学部卒業</li>
-        <li><span class="font-bold">2022年:</span> メーカー総合技術職 工場勤務</li>
-        <li><span class="font-bold">2023年:</span> 都内SES企業転職</li>
+        <li><span class="font-bold">2022年3月:</span> 琉球大学工学部卒業</li>
+        <li><span class="font-bold">2022年4月:</span> メーカー総合技術職 工場勤務</li>
+        <li><span class="font-bold">2023年5月:</span> 都内SES企業転職</li>
       </ul>
     </section>
   

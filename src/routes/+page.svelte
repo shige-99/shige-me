@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-  <title>Tech Blog</title>
-  <meta name="description" content="This tech blog features many wonderful articles." />
+  <title>shige</title>
+  <meta name="description" content="Personal website of shige." />
 </svelte:head>
 
 <div class="py-8 px-4 mb-10 rounded-lg flex flex-col items-center bg-slate-100">
