@@ -9,11 +9,10 @@
 </svelte:head>
 
 <div class="py-8 px-4 mb-10 rounded-lg flex flex-col items-center bg-slate-100">
-  <h1 class="text-3xl font-bold">Tech Blog</h1>
+  <h1 class="text-3xl font-bold">Hi, there👋🏻</h1>
   <div class="mt-4">
     <p class="text-lg text-gray-600 text-s">
-      This is my tech blog. Packed with tech articles that serve as handy references for software
-      engineers. Feel free to bookmark if you like what you see!
+      shige is software developer based in Tokyo.
     </p>
   </div>
 </div>

@@ -5,13 +5,13 @@
 
 <div class="mb-12">
     <h1 class="text-3xl font-bold mb-2">shige</h1>
-    <p class="text-lg">Developer as SES</p>
-    <p class="text-lg">Hobbies: English, Baseball, Travel</p>
+    <p class="text-lg">ソフトウェアエンジニア</p>
+    <p class="text-lg">趣味：野球観戦、旅行、妻との生活</p>
   </div>
   
   <main class="flex-grow">
     <section class="mb-12">
-      <h2 class="text-2xl font-bold mb-2">History</h2>
+      <h2 class="text-2xl font-bold mb-2">経歴</h2>
       <ul>
         <li><span class="font-bold">2022年:</span> 琉球大学工学部卒業</li>
         <li><span class="font-bold">2022年:</span> メーカー総合技術職 工場勤務</li>
