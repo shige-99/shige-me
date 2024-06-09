@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>My Profile</title>
+  <title>About Me</title>
   <meta name="description" content="This is my profile." />
 </svelte:head>
 
@@ -7,16 +7,16 @@
     <h2 class="text-2xl font-bold mb-2">基本情報</h2>
     <p class="text-lg">1999.1.14 沖縄県出身 25歳</p>
     <p class="text-lg">ソフトウェアエンジニア</p>
-    <p class="text-lg">趣味：野球観戦、旅行、妻との生活</p>
+    <p class="text-lg">趣味：野球観戦（巨人ファン）、旅行、妻と外出</p>
   </div>
   
   <main class="flex-grow">
     <section class="mb-12">
       <h2 class="text-2xl font-bold mb-2">経歴</h2>
       <ul>
-        <li><span class="font-bold">2022年3月:</span> 琉球大学工学部卒業</li>
-        <li><span class="font-bold">2022年4月:</span> メーカー総合技術職 工場勤務</li>
-        <li><span class="font-bold">2023年5月:</span> 都内SES企業転職</li>
+        <li><span class="font-bold">2022年3月:</span> 琉球大学工学部機械工学コース卒業</li>
+        <li><span class="font-bold">2022年4月:</span> セメントメーカー 工場勤務〜</li>
+        <li><span class="font-bold">2023年5月:</span> 都内SES企業〜</li>
       </ul>
     </section>
   

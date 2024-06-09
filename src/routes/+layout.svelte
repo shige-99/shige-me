@@ -17,11 +17,10 @@
 <div class="flex flex-col min-h-screen">
     <header class="flex items-center justify-between px-6 py-3 bg-[#64748b]">
         <a href="/">
-            <img src="/images/icon.png" alt="icon" class="h-12 w-12 rounded-full object-cover" />
+            <img src="/images/icon.png" alt="icon" class="h-10 w-10 rounded-full object-cover" />
         </a>
         <nav class="flex gap-4">
-            <a href="/" class="text-white hover:text-gray-400">Home</a>
-            <a href="/profiles" class="text-white hover:text-gray-400">About</a>
+            <a href="/about" class="text-white hover:text-gray-400">About</a>
             <a href="/articles" class="text-white hover:text-gray-400">Blog</a>
         </nav>
     </header>
