@@ -2,32 +2,33 @@
   <title>About | shige</title>
   <meta name="description" content="About me" />
 </svelte:head>
-
-<div class="mb-12">
-  <h2 class="text-2xl font-bold mb-2">基本情報</h2>
-  <p class="text-lg">1999.1.14 沖縄県出身 25歳</p>
-  <p class="text-lg">ソフトウェアエンジニア</p>
-  <p class="text-lg">趣味：野球観戦（巨人ファン）、旅行、妻と外出</p>
-</div>
   
 <main class="flex-grow">
   <section class="mb-12">
-    <h2 class="text-2xl font-bold mb-2">経歴</h2>
+    <h2 class="text-2xl font-bold mb-2">Bio</h2>
     <ul>
-      <li><span class="font-bold">2022年3月:</span> 琉球大学工学部機械工学コース卒業</li>
-      <li><span class="font-bold">2022年4月:</span> セメントメーカー 工場勤務〜</li>
-      <li><span class="font-bold">2023年5月:</span> 都内SES企業〜</li>
+      <li><span class="font-bold">1999</span>&nbsp;Born in Okinawa,Japan</li>
+      <li><span class="font-bold">2022</span>&nbsp;Completed the Bachelor's Program<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             in the Graduate Shool of Mechanical Engineering<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             at University of Ryukyus</li>
+      <li><span class="font-bold">2022</span>&nbsp;Worked at cement manufacturer</li>
+      <li><span class="font-bold">2023</span>&nbsp;Working at SES Co.</li>
     </ul>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-2xl font-bold mb-2">I ♡</h2>
+    <p>Watching Baseball Game, Travel,Life with wife</p>
   </section>
   
   <section class="mb-12">
-    <h2 class="text-2xl font-bold mb-2">SNS</h2>
+    <h2 class="text-2xl font-bold mb-2">On the web</h2>
     <div class="overflow-x-auto">
-      <table>
+      <table class="w-full">
         <tbody>
           <tr>
-            <td class="border px-4 py-2">Twitter</td>
-            <td class="border px-4 py-2"
+            <td class="px-4 py-2">Twitter</td>
+            <td class="px-4 py-2"
             ><a
               class="text-blue-600 hover:text-blue-500"
               href="https://twitter.com/shige99__"
@@ -36,8 +37,8 @@
             >
           </tr>
           <tr>
-            <td class="border px-4 py-2">Zenn</td>
-            <td class="border px-4 py-2"
+            <td class="px-4 py-2">Zenn</td>
+            <td class="px-4 py-2"
             ><a
               class="text-blue-600 hover:text-blue-500"
               href="https://zenn.dev/shige99"
@@ -46,12 +47,21 @@
             >
           </tr>
           <tr>
-            <td class="border px-4 py-2">GitHub</td>
-            <td class="border px-4 py-2"
+            <td class="px-4 py-2">GitHub</td>
+            <td class="px-4 py-2"
             ><a
               class="text-blue-600 hover:text-blue-500"
               href="https://github.com/shige-99"
               target="_blank">https://github.com/shige-99</a
+            ></td
+            >
+          <tr>
+            <td class="px-4 py-2">しずかなインターネット</td>
+            <td class="px-4 py-2"
+            ><a
+              class="text-blue-600 hover:text-blue-500"
+              href="https://sizu.me/shige99"
+              target="_blank">https://sizu.me/shige99</a
             ></td
             >
           </tr>
