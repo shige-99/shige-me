@@ -9,8 +9,8 @@
     <ul>
       <li><span class="font-bold">1999</span>&nbsp;Born in Okinawa,Japan</li>
       <li><span class="font-bold">2022</span>&nbsp;Completed the Bachelor's Program<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                             in the Graduate Shool of Mechanical Engineering<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                             at University of Ryukyus</li>
+                                             in the Graduate Shool of Mechanical<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             Engineering at University of Ryukyus</li>
       <li><span class="font-bold">2022</span>&nbsp;Worked at cement manufacturer</li>
       <li><span class="font-bold">2023</span>&nbsp;Working at SES Co.</li>
     </ul>
