@@ -20,4 +20,4 @@
 </div>
 
   <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-<article class="bg-primary-light text-primary-font py-8 px-10 rounded-lg">{@html data.htmlContent}</article>
+<article class="bg-primary-light text-primary-font py-8 px-10 rounded-lg leading-8">{@html data.htmlContent}</article>

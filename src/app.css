@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff;
+    background-color: #2d3250;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    @apply max-w-screen-lg;
+  }
