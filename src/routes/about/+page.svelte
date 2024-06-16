@@ -3,7 +3,7 @@
   <meta name="description" content="About me" />
 </svelte:head>
   
-<main class="flex-grow">
+<main class="flex-grow container">
   <section class="mb-12">
     <h2 class="text-2xl font-bold mb-2 underline decoration-primary-light underline-offset-4">Bio</h2>
     <ul class="text-primary-font">
