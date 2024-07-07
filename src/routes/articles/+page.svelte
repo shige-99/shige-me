@@ -1,17 +1,10 @@
 <script>
-    export let data;
-    import ArticleLink from '$lib/components/ArticleLink.svelte';
+  export let data;
+  import ArticleCard from '$lib/components/ArticleCard.svelte';
 </script>
 
-<svelte:head>
-  <title>Blog | shige</title>
-  <meta name="description" content="shige's blog" />
-</svelte:head>
-
-<ul>
-    {#each data.articles as article}
-    <li>
-        <ArticleLink {article} />
-    </li>
-    {/each}
-</ul>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  {#each data.articles as article}
+    <ArticleCard {article} />
+  {/each}
+</div>

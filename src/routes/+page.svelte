@@ -1,6 +1,6 @@
 <script>
   export let data;
-  import ArticleLink from '$lib/components/ArticleLink.svelte';
+  import ArticleCard from '$lib/components/ArticleCard.svelte';
 </script>
 
 <svelte:head>
@@ -13,14 +13,13 @@
   <div class="mt-4">
     <p class="text-lg text-s">
       shige is software developer based in Tokyo.
-    </p>
+    </p> 
   </div>
 </div>
 
-<ul>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
   {#each data.articles as article}
-    <li>
-      <ArticleLink {article} />
-    </li>
+    <ArticleCard {article} />
   {/each}
-</ul>
+</div>

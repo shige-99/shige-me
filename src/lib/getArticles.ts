@@ -1,35 +1,20 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
+import Parser from 'rss-parser';
 
-interface Metadata {
-  title: string;
-  date: string;
-}
+const parser = new Parser();
+const ZENN_RSS_URL = "https://zenn.dev/shige99/feed";
 
-interface ArticleInfo {
-  slug: string;
-  metadata: Metadata;
-}
-
-export function getArticles(): ArticleInfo[] {
-  const articlesDirectory = path.resolve(process.cwd(), 'articles');
-  const filenames = fs.readdirSync(articlesDirectory);
-
-  const articles: ArticleInfo[] = filenames.map((filename) => {
-    const slug = filename.replace(/\.[^.]+$/, '');
-    const fullPath = path.join(articlesDirectory, filename);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data } = matter(fileContents);
-
-    return { slug, metadata: data as Metadata };
-  });
-
-  articles.sort((a, b) => {
-    const aDate = new Date(a.metadata.date);
-    const bDate = new Date(b.metadata.date);
-    return bDate.valueOf() - aDate.valueOf();
-  });
-
-  return articles;
+export async function getArticles() {
+  try {
+    const feed = await parser.parseURL(ZENN_RSS_URL);
+    return feed.items.map(item => ({
+      id: item.guid || item.link,
+      title: item.title,
+      link: item.link,
+      pubDate: item.pubDate ? new Date(item.pubDate) : null,
+      description: item.contentSnippet
+    }));
+  } catch (error) {
+    console.error("RSSフィードの取得に失敗しました:", error);
+    return [];
+  }
 }
