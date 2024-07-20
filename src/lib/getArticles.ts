@@ -18,3 +18,8 @@ export async function getArticles() {
     return [];
   }
 }
+
+// 定期的にRSSフィードを取得する
+setInterval(async () => {
+  const articles = await getArticles();
+}, 600000); // 600000ミリ秒（10分）
